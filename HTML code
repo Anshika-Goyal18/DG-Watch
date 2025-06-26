@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  
+   <body>
+
+   <header id="header" class="page-wrapper">
+      <img src="https://th.bing.com/th/id/OIP.N0EkZwxosy1KEJFlG4l-eQHaFj?w=244&h=184&c=7&r=0&o=5&pid=1.7" id="header-img" alt="DG Watches" class="logo" />
+     <nav id="nav-bar" class="nav-bar">
+       <ul>
+         <li><a class="nav-link" href="#features">Features</a></li>
+         <li><a class="nav-link" href="#promo">Promo</a></li>
+         <li><a class="nav-link" href="#pricing">Pricing</a></li>
+       </ul>
+     </nav>
+   </header>
+
+   <main>
+     <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+     <section aria-labelledby="intro">
+       <h3>Premium, Luxury Watches</h3>
+       <input id="email" type="email" name="email" placeholder="Enter your email address" required>
+       <br>
+       <input type="submit" value="GET STARTED" id="submit" class="submit" accesskey="enter">
+     </section>
+     </form>
+     <section aria-labelledby="features" id="features">
+       <div class="feature">
+       <img src="https://cdn-icons-png.flaticon.com/512/12764/12764832.png" alt="premium-logo" id="f-img" class="f-img-1" />
+       <article class="f">
+       <h2>Premium Quality</h2>
+       <p>Each DG Watch is crafted from high-quality stainless steel, sapphire glass, and luxurious leather, ensuring durability and style.</p>
+       </article>
+       </div>
+       <div class="feature">
+       <img src="https://static.vecteezy.com/system/resources/previews/021/448/549/original/digital-tech-icon-technologies-illustration-sign-information-symbol-data-center-logo-vector.jpg" id="f-img" class="f-img-2" />
+       <article class="f">
+       <h2>Advanced Technology</h2>
+       <p>Featuring cutting-edge technology like GPS, heart rate monitoring, and water resistance up to 50 meters.</p>
+       </article>
+       </div>
+       <div class="feature">
+       <img src="https://th.bing.com/th/id/OIP.nFG0fB-SYCUfp2CyVHeTPAHaHa?w=188&h=188&c=7&r=0&o=5&pid=1.7" id="f-img" class="f-img-3" />
+       <article class="f">
+       <h2>Customizable Designs</h2>
+       <p>Choose from a wide range of designs, straps, and watch faces to match your personal style.</p>
+       </article>
+       </div>
+     </section>
+     <section aria-labelledby="promo" id="promo">
+       <div class="video">
+       <iframe src="https://www.youtube.com/embed/JPmgUT_Bph4?autoplay=1&mute=1&loop=1&controls=1" id="video" frameborder="0"></iframe>
+       </div>
+     </section>
+     <section aria-labelledby="pricing" id="pricing" >
+       <div class="watch-pricing">
+         <h4>Classic Steel</h4>
+         <p class="price">$199</p>
+         <p class="content">Timeless Design
+           <br>
+           Stainless Steel case
+           <br>
+           Leather Strap</p>
+         <p class="content">Perfect for any occasion</p>
+          <input type="submit" value="SELECT" id="select" class="buy" />
+       </div>
+       <div class="watch-pricing">
+         <h4>Sport Pro</h4>
+         <p class="price">$299</p>
+         <p class="content">Durable Rubber Strap
+           <br>Advanced Fitness Tracking</p>
+           <p class="content">Ideal for Active Lifestyles</p>
+         <input type="submit" value="SELECT" id="select" class="buy" />
+       </div>
+       <div class="watch-pricing">
+         <h4>Luxury Gold</h4>
+         <p class="price">$499</p>
+         <p class="content">Exquisite Gold-Plated Case
+           <br>
+           Sapphire Glass Face</p>
+         <p class="content">A statement piece for Special Events</p>
+         <input type="submit" value="SELECT" id="select" class="buy" />
+       </div>
+       <div class="watch-pricing">
+         <h4>Smart Custom</h4>
+         <p class="price">Starting at $249</p>
+         <p class="content">Design your own watch from scratch.</p>
+         <p class="content">Choose from various materials, colors, and features to create a unique timepiece.</p>
+         <input type="submit" value="SELECT" id="select" class="buy" />
+       </div>
+     </section>
+   </main>
+   <footer>
+       <ul>
+         <li><a href="#">Privacy</a></li>
+         <li><a href="#">Terms</a></li>
+         <li><a href="#">Contact</a></li>
+       </ul>
+     <br />
+     <span>Copyright 2024, DG Watches</span>
+   </footer>
+  </body>
+</html>
